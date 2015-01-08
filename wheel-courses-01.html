@@ -1,45 +1,9 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Public Admin Wheel</title>
+<title>Dept of Public Admin Course Wheel</title>
 <meta name="description" content="A visualisation of PSU, Department of Public Admin.">
-<style>
-path {
-  stroke: #000;
-  stroke-width: .5;
-  cursor: pointer;
-}
-
-text {
-  font: 12px sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-body {
-  width: 880px;
-  margin: 0 auto;
-}
-
-h1 {
-  text-align: center;
-  line-height: 70%;
-  margin: .5em 0;
-}
-
-h3 {
-  text-align: center;
-  line-height: 50%;
-}
-
-p {
-  text-align: center;
-}
-
-p#intro {
-  text-align: center;
-  margin: 1em 0;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="../media/mystyle.css">
+<style> text { font-weight: bold; } </style>
 
 <h3>Dept of Public Admin Course Wheel:</h3>
 <h1>Impacts of Potential Retirement</h1>
@@ -48,6 +12,8 @@ p#intro {
 <div id="vis"><img src="full.png"></div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
+var jsonDataFile = "wheel-courses-02.json";
+
 var width = 840,
     height = width,
     radius = width / 2,
@@ -76,7 +42,7 @@ var arc = d3.svg.arc()
     .innerRadius(function(d) { return Math.max(0, d.y ? y(d.y) : d.y); })
     .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
 
-d3.json("wheel-courses-02.json", function(error, json) {
+d3.json(jsonDataFile, function(error, json) {
   var nodes = partition.nodes({children: json});
 
   var path = vis.selectAll("path").data(nodes);
