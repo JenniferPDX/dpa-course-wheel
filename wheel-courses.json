@@ -275,7 +275,7 @@
         ]
       },
       {
-        "colour": "#990000",
+        "colour": "#ff4c4c",
         "name": "PA 505",
         "children": [
           {
@@ -343,7 +343,7 @@
         ]
       },
       {
-        "colour": "#ff4c4c",
+        "colour": "#ff9999",
         "name": "PA 510",
         "children": [
           {
@@ -364,7 +364,7 @@
         ]
       },
       {
-        "colour": "#990000",
+        "colour": "#ff4c4c",
         "name": "PA 511",
         "children": [
           {
@@ -438,7 +438,6 @@
         ]
       },
       {
-        "colour": "#ff9999",
         "name": "PA 516",
         "children": [
           {
@@ -592,7 +591,6 @@
         ]
       },
       {
-        "colour": "#ff9999",
         "name": "PA 529",
         "children": [
           {
@@ -619,7 +617,6 @@
         ]
       },
       {
-        "colour": "#ff9999",
         "name": "PA 534",
         "children": [
           {
@@ -667,7 +664,6 @@
         ]
       },
       {
-        "colour": "#ff9999",
         "name": "PA 540",
         "children": [
           {
@@ -881,7 +877,6 @@
         ]
       },
       {
-        "colour": "#ff9999",
         "name": "PA 563",
         "children": [
           {
