@@ -1,20 +1,28 @@
 <!DOCTYPE html>
+<html>
+<head>
 <meta charset="utf-8">
 <title>Dept of Public Admin Course Wheel</title>
 <meta name="description" content="A visualisation of PSU, Department of Public Admin.">
-<link rel="stylesheet" type="text/css" href="../media/mystyle.css">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
 <style> text { font-weight: bold; } </style>
+</head>
 
+<body>
 <h3>Dept of Public Admin Course Wheel:</h3>
 <h1>Impacts of Potential Retirement</h1>
 <p>Includes courses taught/scheduled from Winter 2012 through Winter 2015<p>
+
+<div id="annotation">
+	<p>Hover over a course number to see its title.</p>
+</div>
 
 <div id="vis"><img src="full.png"></div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 var jsonDataFile = "wheel-courses.json";
 
-var width = 840,
+var width = 1040,
     height = width,
     radius = width / 2,
     x = d3.scale.linear().range([0, 2 * Math.PI]),
@@ -23,6 +31,7 @@ var width = 840,
     duration = 1000;
 
 var div = d3.select("#vis");
+var content = d3.select("#annotation"); // To display course titles on mouse hover
 
 div.select("img").remove();
 
@@ -51,7 +60,10 @@ d3.json(jsonDataFile, function(error, json) {
       .attr("d", arc)
       .attr("fill-rule", "evenodd")
       .style("fill", colour)
-      .on("click", click);
+      .on("click", click)
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout);
+
 
   var text = vis.selectAll("text").data(nodes);
   var textEnter = text.enter().append("text")
@@ -73,7 +85,10 @@ d3.json(jsonDataFile, function(error, json) {
             rotate = angle + (multiline ? -.5 : 0);
         return "rotate(" + rotate + ")translate(" + (y(d.y) + padding) + ")rotate(" + (angle > 90 ? -180 : 0) + ")";
       })
-      .on("click", click);
+      .on("click", click)
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout);
+
 	  
   // depth is a static attribute. A node at depth 2 is always at depth 2.    
   textEnter.append("tspan")
@@ -120,6 +135,21 @@ d3.json(jsonDataFile, function(error, json) {
           d3.select(this).style("visibility", isParentOf(d, e) ? null : "hidden");
         });
   }
+  
+    //mouseover function which will send the values to the legend
+    function mouseover(d)
+    {
+        content.append("p2") // JM: Use a separate styling from regular paragraphs
+        .attr("id", "annotate")
+        .text(d.title ? d.name + ": " + d.title : ' ')
+    }
+
+    //mouseout function which removes the values and replaces them with a blank space
+    function mouseout(d)
+    {
+        content.html(' ');
+    }
+  
 });
 
 function isParentOf(p, c) {
@@ -185,3 +215,5 @@ function brightness(rgb) {
 <script>
   if (top != self) top.location.replace(location);
 </script>
+</body>
+</html>
