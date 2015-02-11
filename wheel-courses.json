@@ -380,6 +380,7 @@
       {
         "colour": "#ff4c4c",
         "name": "PA 511",
+        "title": "PUBLIC ADMINISTRATION",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -446,6 +447,7 @@
       },
       {
         "name": "PA 515",
+        "title": "PUBLIC WORKS ADMIN",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -456,6 +458,7 @@
       },
       {
         "name": "PA 516",
+        "title": "CURRENT ISSUES IN PUBLIC MGMT",
         "children": [
           {
             "colour": "#C0CCC0",
