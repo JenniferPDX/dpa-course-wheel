@@ -263,6 +263,7 @@
     "children": [
       {
         "name": "PA 502",
+        "title": "INDEPENDENT STUDY",
         "children": [
           {
             "colour": "#667A66",
@@ -274,6 +275,7 @@
       {
         "colour": "#ff4c4c",
         "name": "PA 504",
+        "title": "COOPERATIVE EDUCATION / INTERNSHIP",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -290,6 +292,7 @@
       {
         "colour": "#ff4c4c",
         "name": "PA 505",
+        "title": "READING AND CONFERENCE",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -311,6 +314,7 @@
       {
         "colour": "#ff9999",
         "name": "PA 506",
+        "title": "SPECIAL PROJECTS",
         "children": [
           {
             "colour": "#667A66",
@@ -322,6 +326,7 @@
       {
         "colour": "#ff9999",
         "name": "PA 507",
+        "title": "SEMINAR: HIGHER EDUCATION POLICY; INTERNATIONAL LAW & WAR ON TERROR",
         "children": [
           {
             "colour": "#667A66",
@@ -337,7 +342,7 @@
       },
       {
         "name": "PA 509",
-        "title": "ORGANIZTL EXPERIENCE",
+        "title": "ORGANIZATIONAL EXPERIENCE",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -359,6 +364,7 @@
       {
         "colour": "#ff9999",
         "name": "PA 510",
+        "title": "ADVANCED ANALYTIC METHODS; ADVANCED CASE ANALYSIS; ARTS ADMINISTRATION; COLUMBIA RVR BASN GVRNANCE; CULTURE, VALUES & LDRSHP; EFCTV MKTG NP & PUB SEC; EMERGENCY LEADERSHIP; EXEC LDRSHP & DECSN MAKNG; FNDATNS OF COLLAB GOVERN; FOOD & AGRICULTURE POLICY; IMMIGRATION & CITIZENSHIP; INTERNATIONAL FIELD EXPERIENCE; INTL FIELD EXPRNCE KOREA; INTL FLD EXPRNCE VIETNAM; LABR RLTNS IN THE PUB SCTR; MAKING THE SMART GRID WORK; MXD METHDS RSRCH STRAT PA; PROFESSIONAL IN EMERGENCY MGMT; PUB LSHP & CULT COMPTENCY; PUBLIC BUDGETING SEMINAR; SMART GRID FOR SUSTAINABLE COM; SOC MEDIA FOR PUB SRV PRO; STRATEGIC ORG LEADERSHIP; SUSTNBLE SYSTMS & ORG RESILNCE; UNDERSTAND COMMUNTY EXPECT",
         "children": [
           {
             "colour": "#C0CCC0",
