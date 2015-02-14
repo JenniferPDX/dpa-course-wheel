@@ -69,6 +69,7 @@
       },
       {
         "name": "PA 399",
+        "title": "SPECIAL STUDIES",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -89,7 +90,7 @@
       },
       {
         "name": "PA 402",
-        "title": "IS: CIVIC LEADERSHIP",
+        "title": "INDEPENDENT STUDY",
         "children": [
           {
             "colour": "#203426",
@@ -101,6 +102,7 @@
       {
         "colour": "#ff9999",
         "name": "PA 405",
+        "title": "READING AND CONFERENCE",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -154,6 +156,7 @@
       },
       {
         "name": "PA 412",
+        "title": "ROLE OF GOVERNING INSTITUTIONS",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -164,6 +167,7 @@
       },
       {
         "name": "PA 413",
+        "title": "CIVIC ENG: ROLE OF INDIVIDUALS",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -179,6 +183,7 @@
       },
       {
         "name": "PA 414",
+        "title": "ROLE OF SOCIAL INSTITUTIONS",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -194,6 +199,7 @@
       },
       {
         "name": "PA 415",
+        "title": "CIVIC LEADERSHP INTEGRATIVE SEMINAR",
         "children": [
           {
             "colour": "#203426",
@@ -204,6 +210,7 @@
       },
       {
         "name": "PA 417",
+        "title": "ETHICAL LEADERSHIP",
         "children": [
           {
             "colour": "#C0CCC0",
