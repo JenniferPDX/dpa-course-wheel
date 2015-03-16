@@ -1,6 +1,6 @@
 [
   {
-    "name": "Public Admin-Undergrad",
+    "name": "Public Admin-(Undergrad)",
     "children": [
       {
         "name": "PA 311",
@@ -266,7 +266,7 @@
     ]
   },
   {
-    "name": "Public Admin-Graduate",
+    "name": "Public Admin-(Graduate)",
     "children": [
       {
         "name": "PA 502",
@@ -647,9 +647,9 @@
         ]
       },
       {
-        "colour": "#660000",
         "name": "PA 533",
         "title": "PUBLIC POLICY ORIGIN & PROCESS",
+        "colour": "#660000",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -1161,11 +1161,13 @@
     ]
   },
   {
-    "name": "PAH",
+    "name": "PAH-(Graduate)",
+    "colour": "#FF9D5C",
     "children": [
       {
         "name": "PAH 320",
         "title": "HEALTH ETHICS: CONTEMP ISSUES",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -1177,6 +1179,7 @@
       {
         "name": "PAH 399",
         "title": "SPST:VALUES ETHICS & POPULATION HEALTH",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -1188,6 +1191,7 @@
       {
         "name": "PAH 505",
         "title": "RESEARCH AND CONFERENCE",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1199,6 +1203,7 @@
       {
         "name": "PAH 509",
         "title": "ORGANIZATIONAL EXPERIENCE",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1215,6 +1220,7 @@
       {
         "name": "PAH 510",
         "title": "GLOBAL HEALTH SYSTEMS; CULTURE AND HEALTH CARE",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1226,6 +1232,7 @@
       {
         "name": "PAH 541",
         "title": "ORG BEHAVIOR HEALTH",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -1242,6 +1249,7 @@
       {
         "name": "PAH 542",
         "title": "MARKETING HEALTH SERVICES",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#203426",
@@ -1253,6 +1261,7 @@
       {
         "name": "PAH 544",
         "title": "LDRSHP & GOVERNANCE HLTH SVCS",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1264,6 +1273,7 @@
       {
         "name": "PAH 570",
         "title": "HEALTH ADMINISTRATION",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1275,6 +1285,7 @@
       {
         "name": "PAH 571",
         "title": "HEALTH POLICY",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -1296,6 +1307,7 @@
       {
         "name": "PAH 572",
         "title": "HEALTH POLITICS",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1307,6 +1319,7 @@
       {
         "name": "PAH 573",
         "title": "VALUES & ETHICS-HEALTH",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -1318,6 +1331,7 @@
       {
         "name": "PAH 574",
         "title": "HEALTH SYSTEMS ORG",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#ffffff",
@@ -1344,6 +1358,7 @@
       {
         "name": "PAH 575",
         "title": "ADVANCED HEALTH POLICY",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1355,6 +1370,7 @@
       {
         "name": "PAH 576",
         "title": "STRATGC MGMT HEALTH CARE ORGS",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#203426",
@@ -1366,6 +1382,7 @@
       {
         "name": "PAH 577",
         "title": "HLTH CARE LAW & REG",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -1377,6 +1394,7 @@
       {
         "name": "PAH 578",
         "title": "CONT IMPRV-HLTH CARE",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1388,6 +1406,7 @@
       {
         "name": "PAH 579",
         "title": "HEALTH INFO TECH & SYST MGMT",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -1399,6 +1418,7 @@
       {
         "name": "PAH 580",
         "title": "HEALTH SERVICES HUMAN RESOURCES MANAGEMENT",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#C0CCC0",
@@ -1410,6 +1430,7 @@
       {
         "name": "PAH 586",
         "title": "INTRO-HEALTH ECON",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1421,6 +1442,7 @@
       {
         "name": "PAH 587",
         "title": "FIN MGMT-HEALTH SVCS",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#667A66",
@@ -1432,6 +1454,7 @@
       {
         "name": "PAH 588",
         "title": "PROG EVAL/MGMT HLTH",
+        "colour": "#FF9D5C",
         "children": [
           {
             "colour": "#C0CCC0",
