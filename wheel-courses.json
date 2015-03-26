@@ -1474,5 +1474,62 @@
         ]
       }
     ]
+  },
+  {
+    "name": "PAP (Graduate)",
+    "children": [
+      {
+        "name": "PAP 616",
+        "title": "POLICY PROCESS",
+        "children": [
+          { "colour": "#203426", "name": "Ten Trk: 1", "size": "1" }
+        ]
+      },
+      {
+        "colour": "#ff9999",
+        "name": "PAP 610",
+        "title": "NEW PUBLC GOVERNANCE",
+        "children": [
+          { "colour": "#667A66", "name": "Ten: 1", "size": "1" }
+        ]
+      },
+      {
+        "colour": "#ff9999",
+        "name": "PAP 610",
+        "title": "CITATION ANALYSIS",
+        "children": [
+          { "colour": "#667A66", "name": "Ten: 1", "size": "1" }
+        ]
+      },
+      {
+        "name": "PAP 612",
+        "title": "GOVERN/ PA/ RULE LAW",
+        "children": [
+          { "colour": "#667A66", "name": "Ten: 1", "size": "1" }
+        ]
+      },
+      {
+        "name": "PAP 615",
+        "title": "ADMINISTRATIVE PROCESS",
+        "children": [
+          { "colour": "#667A66", "name": "Ten: 1", "size": "1" }
+        ]
+      },
+      {
+        "name": "PAP 654",
+        "title": "POLICY ANALYSIS RESEARCH",
+        "children": [
+          { "colour": "#667A66", "name": "Ten: 1", "size": "1" }
+        ]
+      },
+      {
+        "colour": "#ff9999",
+        "name": "PAP 694",
+        "title": "SOCIAL PRACTICES & ECOSYSTEMS",
+        "children": [
+          { "colour": "#667A66", "name": "Ten: 1", "size": "1" }
+        ]
+      }
+    ]
   }
 ]
