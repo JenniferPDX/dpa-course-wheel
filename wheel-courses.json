@@ -1,4 +1,6 @@
-[
+{
+      "name": "Courses",
+      "children": [
   {
     "name": "Public Admin-(Undergrad)",
     "children": [
@@ -1533,3 +1535,4 @@
     ]
   }
 ]
+}
